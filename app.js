@@ -26,7 +26,7 @@ app.use(express.urlencoded({extended: true}))
 
 const corsOptions = {
     origin: [
-        'https://your-app-name.onrender.com', // Render app URL for backend
+        'https://album-1-1bu8.onrender.com', // Render app URL for backend
         'https://newalbum.netlify.app' // Netlify app URL for frontend
     ],
     credentials: true, // If you need to send cookies or authentication headers
